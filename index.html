@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="heading">Memory Game</h1>
+  <div class="memory-game">
+    <div class="memory-card" data-framework="RTE">
+      <img class="front-face" src="img/rte2.jpg" alt="education" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="RTE">
+      <img class="front-face" src="img/rte2.jpg" alt="education" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="RTHE">
+      <img class="front-face" src="img/rthe2.jpg" alt="RTHE" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="RTHE">
+      <img class="front-face" src="img/rthe2.jpg" alt="RTHE" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="cyber">
+      <img class="front-face" src="img/cyber1.jpg" alt="cyber" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="cyber">
+      <img class="front-face" src="img/cyber1.jpg" alt="cyber" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="gtbt">
+      <img class="front-face" src="img/gtbt.jpg" alt="gtbt" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="gtbt">
+      <img class="front-face" src="img/gtbt.jpg" alt="gtbt" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="rtp">
+      <img class="front-face" src="img/rtp.jpg" alt="play" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="rtp">
+      <img class="front-face" src="img/rtp.jpg" alt="play" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="expression">
+      <img class="front-face" src="img/expression.jpg" alt="expression" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="expression">
+      <img class="front-face" src="img/expression.jpg" alt="expression" />
+      <img class="back-face" src="img/cover1.jpg" alt="cover" />
+    </div>
+  </div>
+
+  <div class="popup-container" id="popup-container">
+    <div class="popup" id="popup">
+      <div class="popup-header">
+        <h1 id="popup-title-para"></h1>
+      </div>
+      <div class="popup-body">
+        <p id="popup-body-para"></p>
+      </div>
+      <div class="close">
+        <button id="close-btn" onclick="closePopup()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
